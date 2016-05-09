@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+
+.title {
+  font-size: 48px;
+  margin: 90px 0 70px;
+  user-select: none;
+  text-align: center;
+  color: $color-dark;
+  text-transform: uppercase;
+}

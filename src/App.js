@@ -1,12 +1,15 @@
-import React, { Component } from 'react'
-import Intro from 'components/Intro/Intro'
+import React, { Component } from 'react';
+
+import Goals from './containers/Goals/Goals';
+
+import style from './App.scss';
 
 export default class App extends Component {
     render() {
         return (
-            <div>
-                <Intro />
+            <div className={style.wrapper}>
+                <Goals />
             </div>
-        )
+        );
     }
 }
