@@ -1,0 +1,9 @@
+.hello {
+  font-size: 48px;
+  color: tomato;
+}
+
+:local(.hello) > .another {
+  color: #0086b3;
+  user-select: none;
+}

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
-import style from './intro.css';
+import style from './intro.scss';
 
 export default class Intro extends Component {
     render() {
-        return <div className={style.hello}>Привет из Intro</div>
+        return <div className={style.hello}>
+            <div className={style.another}>Привет из Intro</div>
+        </div>
     }
 }
