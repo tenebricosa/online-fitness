@@ -11,7 +11,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'bundle.js',
-        publicPath: '/static/'
+        publicPath: 'http://localhost:1488/static/'
     },
     plugins: [
         new webpack.optimize.OccurenceOrderPlugin(),
@@ -45,10 +45,17 @@ module.exports = {
                     'sass-loader?sourceMap'
                 ],
                 test: /\.scss$/
+            },
+            {
+                test: /\.(jpe?g|png|gif|svg)$/i,
+                loaders: [
+                    'file?hash=sha512&digest=hex&name=[hash].[ext]',
+                    'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+                ]
             }
         ]
     },
     postcss: [
         require('autoprefixer')
-    ],
+    ]
 };
