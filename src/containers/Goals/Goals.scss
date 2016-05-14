@@ -1,5 +1,13 @@
 @import '../../styles/variables';
+:local {
+  .wrapper {
+    background-color: $color-light;
+    margin: $section-margin;
+    display: flex;
+    justify-content: space-between;
+  }
 
-.wrapper {
-  background-color: $color-light;
+  .goal {
+
+  }
 }

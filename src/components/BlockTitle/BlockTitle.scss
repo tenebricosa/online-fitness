@@ -1,11 +1,16 @@
 @import '../../styles/variables';
 
-.title {
-  font-size: 48px;
-  padding: 90px 0 70px;
-  margin: 0;
-  user-select: none;
-  text-align: center;
-  color: $color-dark;
-  text-transform: uppercase;
+:local {
+  .title {
+    font-size: 48px;
+    padding: 90px 0 70px;
+    margin: 0;
+    user-select: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .light {
+    color: #fff;
+  }
 }

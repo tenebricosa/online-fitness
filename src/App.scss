@@ -1,5 +1,7 @@
 @import '../node_modules/normalize.css/normalize.css';
+@import 'styles/variables';
 
 .wrapper {
   font-family: Helvetica;
+  color: $color-dark;
 }
