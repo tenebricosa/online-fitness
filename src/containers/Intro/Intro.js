@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 
 import Button from '../../components/Button/Button';
+import Section from '../../components/Section/Section';
 
 import style from './Intro.scss';
 
 export default class Intro extends Component {
     render() {
         return (
-            <section className={style.wrapper}>
+            <Section innerClass={style.wrapper}>
                 <h1 className={style.title}>Твой<br/>личный<br/>фитнес-тренер</h1>
                 <p className={style.about}>
                     На протяжении пятнцадцати лет я составляю
@@ -19,7 +20,7 @@ export default class Intro extends Component {
                     получать консультации и проходить тренировки онлайн.
                 </p>
                 <Button />
-            </section>
+            </Section>
         );
     }
 }

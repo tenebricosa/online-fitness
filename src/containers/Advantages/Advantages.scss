@@ -1,0 +1,24 @@
+@import '../../styles/variables';
+
+:local {
+  .wrapper {
+    background: $color-red;
+    color: #fff;
+  }
+
+  .points {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .health {
+    width: 72px;
+    height: 62px;
+
+    &:before {
+      background: url('./img/pulse.svg') no-repeat;
+    }
+  }
+}

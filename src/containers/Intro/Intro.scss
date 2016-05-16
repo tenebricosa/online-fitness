@@ -1,15 +1,12 @@
 @import '../../styles/variables';
+
 :local {
   .wrapper {
-    position: relative;
-    margin: $section-margin;
-    padding: 0 0 3em;
 
     &:before {
       content: '';
       position: absolute;
-      background-image: url('./img/trainer.png');
-      background-repeat: no-repeat;
+      background: url('./img/trainer.png') no-repeat;
       height: 431px;
       width: 435px;
       right: 0;

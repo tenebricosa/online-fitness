@@ -1,0 +1,14 @@
+@import '../../styles/variables';
+
+:local {
+  .wrapper {
+    padding: $section-padding;
+  }
+
+  .inner {
+    position: relative;
+    max-width: $max-width;
+    min-width: $min-width;
+    margin: 0 auto;
+  }
+}

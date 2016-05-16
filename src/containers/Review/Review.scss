@@ -1,0 +1,45 @@
+@import "../../styles/variables";
+
+:local {
+  .person-list {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: left .5s ease-out;
+    list-style-type: none;
+  }
+
+  .slider {
+    text-align: center;
+  }
+
+  .input {
+    display: none;
+  }
+
+  .label {
+    width: 13px;
+    height: 13px;
+    background: $color-light;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+
+    &:hover {
+      background: $color-red;
+    }
+
+    &.active {
+      background: $color-red;
+    }
+  }
+
+  .client-1 {
+    background-image: url('./img/client-1.png');
+  }
+
+  .client-2 {
+    background-image: url('./img/client-2.png');
+  }
+}

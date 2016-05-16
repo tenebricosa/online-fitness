@@ -1,0 +1,39 @@
+@import "../../styles/variables";
+
+:local {
+  .wrapper {
+
+  }
+
+  .content {
+    margin-left: 150px;
+  }
+
+  .photo {
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    float: left;
+    background-repeat: no-repeat;
+  }
+
+  .name {
+    font-size: 24px;
+    font-weight: 700;
+    color: $color-red;
+    text-transform: uppercase;
+  }
+
+  .job {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $font-color-light;
+  }
+
+  .opinion {
+    font-size: 16px;
+    font-weight: 300;
+    color: $font-color-light;
+  }
+}

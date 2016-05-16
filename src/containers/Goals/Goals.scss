@@ -1,13 +1,26 @@
 @import '../../styles/variables';
+
 :local {
   .wrapper {
     background-color: $color-light;
-    margin: $section-margin;
-    display: flex;
-    justify-content: space-between;
   }
 
-  .goal {
+  .health {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid $color-red;
 
+    &:before {
+      width: 72px;
+      height: 62px;
+      background: url('./img/pulse.svg') no-repeat;
+    }
+  }
+
+  .points {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 }

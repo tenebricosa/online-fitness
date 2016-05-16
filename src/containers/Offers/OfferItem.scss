@@ -1,0 +1,55 @@
+@import "../../styles/variables";
+
+.offer {
+  border: 2px solid $color-red;
+  padding: 0 30px 1em;
+  display: inline-block;
+  max-width: 280px;
+  box-sizing: border-box;
+  vertical-align: top;
+  transition: all .15s ease-in-out;
+  cursor: default;
+  background: #fff;
+
+  & + & {
+    margin-left: 1em;
+  }
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+.header {
+  margin: -2px -32px;
+  background: $color-red;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1em;
+}
+
+.body {
+  min-height: 210px;
+}
+
+.price {
+  font-size: 48px;
+  margin: 0.7em 0;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0;
+  color: $font-color-light;
+  font-weight: 300;
+}
+
+.item {
+  margin: 1em 0;
+}

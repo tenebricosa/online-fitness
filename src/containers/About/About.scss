@@ -1,0 +1,18 @@
+:local {
+  .wrapper {
+
+    &:before {
+      content: '';
+      position: absolute;
+      background: url('./img/trainer.png') no-repeat;
+      height: 884px;
+      width: 385px;
+      left: 0;
+      top: 10em;
+    }
+  }
+
+  .list {
+    margin: 0 0 5em 360px;
+  }
+}
