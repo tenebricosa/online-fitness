@@ -10,6 +10,7 @@ export default class Request extends Component {
     render() {
         return (
             <Section>
+                <a name="request"></a>
                 <BlockTitle>Пора заняться собой</BlockTitle>
                 <Button />
             </Section>

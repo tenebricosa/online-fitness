@@ -6,17 +6,26 @@
     border: 2px solid $color-red;
     color: $color-red;
     border-radius: 3px;
-    padding: 10px 18px 8px;
+    padding: 10px 34px 8px;
     cursor: pointer;
+    transition: all 0.1s ease-out;
+    user-select: none;
+    display: inline-block;
+    text-decoration: none;
 
     &:hover {
       background: $color-red;
       color: #fff
+    }
+
+    &:focus {
+      outline: none;
     }
   }
 
   .label {
     text-transform: uppercase;
     font-size: 20px;
+    font-weight: 700;
   }
 }

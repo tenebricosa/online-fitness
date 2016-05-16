@@ -5,9 +5,9 @@ import style from './Button.scss';
 export default class Button extends Component {
     render() {
         return(
-            <button className={style.button}>
+            <a className={style.button} href="#request">
                 <span className={style.label}>Связаться со мной</span>
-            </button>
+            </a>
         )
     }
 }
